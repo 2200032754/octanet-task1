@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h1>JobPortal</h1>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#companies">Companies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="section">
+                <h2>Find Your Dream Job</h2>
+                <p>Search through thousands of job listings and find the perfect match for your skills.</p>
+                <input type="text" id="jobSearch" placeholder="Search for jobs...">
+                <button id="searchBtn">Search</button>
+            </section>
+
+            <section id="jobs" class="section">
+                <h2>Latest Job Openings</h2>
+                <div id="jobListings">
+                    <!-- Job listings will be dynamically inserted here -->
+                </div>
+            </section>
+
+            <section id="companies" class="section">
+                <h2>Top Companies</h2>
+                <p>Discover top companies hiring now.</p>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact Us</h2>
+                <p>Email: support@jobportal.com</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 JobPortal</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
